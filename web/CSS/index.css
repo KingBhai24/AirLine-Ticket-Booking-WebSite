@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+body{
+    background-color: #00bfff;
+    margin: 0px;
+    padding: 0px;
+}
+#Main_Section{
+    background-image: url(../Images/samantha-gades-tVzGTraJ4T0-unsplash.jpg);
+    width: inherit;
+    height: 600px;
+}
+#Heading {
+    text-align: center;
+    font-size: 3em;
+    border-bottom: 5px solid dodgerblue;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 10px;
+    color: #000;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.Nav_Bar{
+    margin: auto;
+    text-align: center;
+    
+}
+.Nav_Bar a{
+    margin: 10px 0 0 10px;
+    background: dodgerblue;
+    color: #fff;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: inline;
+    float: none;
+}
+.Nav_Bar a:hover {
+    background: linear-gradient(45deg, greenyellow, dodgerblue);
+}
